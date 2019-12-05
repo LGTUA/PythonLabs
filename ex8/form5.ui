@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Результаты</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>20</y>
+     <width>321</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Спасибо, что воспользовались&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;нашей системой!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>601</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="verticalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <attribute name="horizontalHeaderVisible">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <row>
+    <property name="text">
+     <string>New Row</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>New Row</string>
+    </property>
+   </row>
+   <row>
+    <property name="text">
+     <string>New Row</string>
+    </property>
+   </row>
+   <column>
+    <property name="text">
+     <string>Вопросы</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Ответы</string>
+    </property>
+   </column>
+   <item row="0" column="0">
+    <property name="text">
+     <string>Выберите любимую кашу</string>
+    </property>
+   </item>
+   <item row="1" column="0">
+    <property name="text">
+     <string>Как вы учились в 5 классе</string>
+    </property>
+   </item>
+   <item row="2" column="0">
+    <property name="text">
+     <string>Какое у вас образование</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="btnPrev">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>410</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Назад</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnExit">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>410</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Выход</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
